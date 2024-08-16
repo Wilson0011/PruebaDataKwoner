@@ -1,0 +1,10 @@
+Para probar la API con AWS CLI, usa este comando:
+
+aws apigateway test-invoke-method \
+--rest-api-id <api_id> \
+--resource-id <resource_id> \
+--http-method GET \
+--profile <your_profile> \
+--region <your_region>
+
+Reemplaza <api_id> con el ID de tu API Gateway, <resource_id> con el ID del recurso "data" y <your_profile> y <your_region> con tu perfil y región de AWS.
